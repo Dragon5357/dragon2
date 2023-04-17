@@ -45,7 +45,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await fifthon(JoinChannelRequest("@fifthon"))
+        await fifthon(JoinChannelRequest("@Y_U_8"))
     except BaseException:
         pass
 
@@ -106,13 +106,13 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 ●▬▬▬▬๑۩۩๑▬▬▬▬▬●
-★ 𝙒𝙀𝙡𝘾𝙊𝙈𝙀 𝙏𝙊 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙍𝘼𝙌𝙄
+★ 𝙒𝙀𝙡𝘾𝙊𝙈𝙀 𝙏𝙊 𝙎𝙊𝙐𝙍𝘾𝙀 DRAGON 
 ┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴
 ★ 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 : 1.3
 ★ 𝙋𝙄𝙉𝙂 : `{ms}`
 ★ 𝘿𝘼𝙏𝙀 : `{m9zpi}`
 ★ 𝙄𝘿 : `{event.sender_id}`
-★ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙍𝘼𝙌𝙄 : @isiraqi
+★ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙍𝘼𝙌𝙄 : @P_0"M
 ●▬▬▬▬๑۩۩๑▬▬▬▬▬●
 
 ''')
@@ -125,7 +125,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 لفك خاصية
-@isiraqi
+@P_0_M
 
 ''')
 
@@ -137,13 +137,11 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 
-𝙏𝙀𝙇𝙀 : @isiraqi
-𝙄𝙉𝙎𝙏𝘼 : 𝙄𝙎𝙄𝙍𝘼𝙌I
+𝙏𝙀𝙇𝙀 : @P_0_M
  ❦ ════ •⊰❂⊱• ════ ❦
-𝙉𝘼𝙈𝙀 : 𝘼𝙇𝙄
+𝙉𝘼𝙈𝙀 : DRAGON 
 𝘼𝙂𝙀 : 16
-𝙇𝙄𝙑𝙀 : 𝙄𝙍𝘼𝙌   
-𝙨𝙩𝙪𝙙𝙚𝙣𝙩    
+𝙇𝙄𝙑𝙀 : EGYPT    
 ࿇ ══━━━✥◈✥━━━══ ࿇
 
 ''')
@@ -161,16 +159,6 @@ async def _(event):
 - https://t.me/+_aSr4lSZ8xw5YzMy
 - https://t.me/+ZVM0-mWOTfAzMWU0
 - https://t.me/+yFWxxT8hBIk4ZTlh
-- https://t.me/xjgjxgk
-- https://t.me/+3Ps0PTWcKnVkYTYx
-- https://t.me/+jJPr8Scd-XtkYWUy
-- https://t.me/tttffttt
-- https://t.me/+Z-C6TvKIMDJmZGJi
-- https://t.me/+5HDPPdgJyeU4OGFi
-- https://t.me/ss_iid
-- https://t.me/+tzEVV5iaHWY5Yjgy
-━━━━━━༺༻━━━━━━━
-
 ''')
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.فيزا"))
@@ -245,7 +233,7 @@ ownerhson_id = 5436645626
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('my owner iraqi 🔱 @isiraqi')
+        order = await event.reply('my owner DRAGON 🔱 @P_0_M')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
